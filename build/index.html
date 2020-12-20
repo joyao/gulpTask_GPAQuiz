@@ -1,0 +1,36 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>109年採購法題庫模擬試題</title><link rel="stylesheet" type="text/css" href="css/semantic.min.css"><style type="text/css">
+        body {
+            background-color: #FFFFFF;
+        }
+
+        .ui.menu .item img.logo {
+            margin-right: 1.5em;
+        }
+
+        .main.container {
+            padding-top: 7em;
+            margin-bottom: 5em;
+        }
+
+        .wireframe {
+            margin-top: 2em;
+        }
+
+        .ui.footer.segment {
+            margin: 5em 0em 0em;
+            padding: 5em 0em;
+        }
+
+        .subjectmenu {
+            cursor: pointer;
+        }
+
+        .ui.checkbox .box, .ui.checkbox label {
+            font-size: 1.2em;
+            line-height: 25px;
+        }
+
+        .ui.form .grouped.fields > label {
+            font-size: 1.3em;
+        }
+    </style></head><body style="min-width:450px;"><div class="ui fixed inverted menu"><div class="ui container"><div onclick="javacript:parent.location.reload();" class="header item subjectmenu">109採購法</div><div class="ui simple dropdown item">法規課程 <i class="dropdown icon"></i><div class="menu"><div class="item" onclick="getQuestions('subject1','MC')">選擇題模擬測驗</div><div class="item" onclick="getQuestions('subject1','TF')">是非題模擬測驗</div></div></div><div class="ui simple dropdown item">實務課程 <i class="dropdown icon"></i><div class="menu"><div class="item" onclick="getQuestions('subject2','MC')">選擇題模擬測驗</div><div class="item" onclick="getQuestions('subject2','TF')">是非題模擬測驗</div></div></div><div class="ui simple dropdown item">其他課程 <i class="dropdown icon"></i><div class="menu"><div class="item" onclick="getQuestions('subject3','MC')">選擇題模擬測驗</div><div class="item" onclick="getQuestions('subject3','TF')">是非題模擬測驗</div></div></div></div></div><div class="ui main text container"><h1 id="subjecttitle" class="ui header">109年採購法題庫模擬試題</h1><div id="subjectinfo"><p>請選擇上方試卷進行測驗。</p><p>考試節次與題型：</p><img width="100%" src="images/QuizTypeList.PNG"></div><div id="quizscore" style="display:none;text-align:right;color:blue;"></div><div style="margin-bottom:20px;"><div class="ui active centered inline loader" style="display:none;"></div><table id="quiztable" class="ui celled table" style="display:none;"><tr><td></td></tr></table></div><button id="submitQuiz" onclick="submitQuiz()" class="ui fluid negative button" style="display:none;">提交測驗</button> <button id="reQuiz" onclick="reQuiz()" class="ui fluid primary button" style="display:none;">重新測驗</button></div><script type="text/javascript" src="js/jquery-3.5.1.min.js"></script><script type="text/javascript" src="js/semanticUI/semantic.min.js"></script><script type="text/javascript" src="init.js"></script></body></html>
